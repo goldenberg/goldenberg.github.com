@@ -176,6 +176,9 @@ ul.posts {
       border: none;
     }
 
+    #note {
+        font-style: italic;
+    }
   /* terminal */
 
   #post pre.terminal {
@@ -195,3 +198,5 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+  
+  
