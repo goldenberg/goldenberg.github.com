@@ -13,6 +13,11 @@
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
    
+   {% if page.extra_css %}
+   		{% for css_link in page.extra_css %}
+   			<link rel="stylesheet" href="{{css_link}}" type="text/css">
+   		{% endfor %}
+   {% endif %}
 </head>
 <body>
 

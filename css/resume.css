@@ -1,0 +1,42 @@
+/* @override http://0.0.0.0:4000/css/resume.css */
+
+#address {
+	text-align: center;
+}
+
+.location {
+	text-align: right;
+}
+
+.dates {
+	text-align: right;
+}
+
+.position {
+	float: left;
+	clear: left;
+}
+
+.employer {
+	float: left;
+	display: inline-block;
+	clear: left;
+	position: relative;
+}
+
+.job {
+	margin-top: 12px;
+}
+
+.section {
+	margin-top: 12pt;
+}
+
+ul {
+	margin-left: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: #575757;
+}
