@@ -22,9 +22,14 @@
 <body>
 
 <div class="site">
-  <div class="title">
-    <a href="/">Benjamin Goldenberg</a>
-    <a class="extra" href="/">home</a>
+  <div class="header">
+    <a class="title"href="/">Benjamin Goldenberg</a>
+    <span class="path">
+    <a href="/">home</a>
+    {% for path_element in page.path %}
+     &raquo; {{path_element}}
+    {% endfor %}
+    </span>
   </div>
   
   {{ content }}

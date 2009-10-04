@@ -1,3 +1,5 @@
+/* @override http://0.0.0.0:4000/css/screen.css */
+
 /*****************************************************************************/
 /*
 /* Common
@@ -34,17 +36,15 @@ p {
   margin: 1em 0;
 }
 
-a {
-  color: #00a;
+a {	
+  color: #36009d;
+	text-decoration: none;
 }
 
 a:hover {
   color: black;
 }
 
-a:visited {
-  color: #a0a;
-}
 
 table {
   font-size: inherit;
@@ -92,6 +92,13 @@ ul.posts {
   margin-bottom: 2em;
 }
 
+.path {
+	color : #aaa;
+	text-decoration: none;
+}
+
+
+
   .site .title a {
     color: #a00;
     text-decoration: none;
@@ -106,7 +113,14 @@ ul.posts {
     text-decoration: none;
     margin-left: 1em;
   }
+  
+  .header a {
+	color: #aaa;
+}
 
+.header .title {
+	color:  #a00;
+}
   .site .title a.extra:hover {
     color: black;
   }
